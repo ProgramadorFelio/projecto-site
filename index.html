@@ -1,33 +1,355 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titulo dos ite</title>
-    <link rel="stylesheet" href="estilos/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio</title>
+  <link rel="stylesheet" type="text/css" href="css/style3.css">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 <body>
-    <main>
-        <header>
-            <img  src="imagens/js.png" alt="imagen js">
-            <h1>cursos gratis</h1>
-        </header>
-        <article>
-            <h2>html5</h2>
-            <img class="lado" src="imagens/html.png" alt="">
-            <p>curso de css e js</p>
-            <a href="">
-                <p>acesse o curso de html5</p>
-            </a>
-        </article>
-        <article>
-            <h2>css3</h2>
-            <img class="lado" src="imagens/js.png" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, aperiam dolorem. In quos vitae eligendi provident enim quaerat commodi esse consequatur similique nulla officiis, nobis, quia minima nostrum sapiente reiciendis?</p>
-            <a href="">
-                <p>acesse o curso de html5</p>
-            </a>
-        </article>
-    <a href=""></main></a>
+  <!---CABEÇAÇHO--->
+  <header>
+    <nav class="navbar">
+      <a href="#inicio" class="logo">FN <span>.</span></a>
+      <button class="menu-btn" id="menuBtn" ></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projectos">Projectos</a></li>
+                  <li><a href="#contacto">Contactos</a></li>
+      </ul>
+    </nav>
+<main>   
+  </header>
+
+  <!---INICIO-->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <p class="hello">Ola, Meu nome e </p>
+      <h1 id="nome">Felio <span>Leonardo Ngoca</span> </h1>
+      <h2>Desenvolvedor de Software e Programador</h2>
+      <p>
+        Estudante de Informatica de Gestao no Instituto Superior de Comunicacao e Imagem de Mocambique. Sou um jovem apaixonado por tecnologias, desenvolvimento web e criacao de sistemas de aplicacoes web.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projectos" class="btn btn-primary">Ver Projectos</a>
+        <a href="#contacto" class="btn btn-secundary">Entrar em Contacto</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="profile-circle">
+        FN
+      </div>
+      <h3>Felio Ngoca</h3>
+      <p>Programador<br>Desenvolvedor</p>
+      <div class="status">
+        <span></span>Disponivel para Projectos
+      </div>
+    </div>
+  </section>
+  <!--SOBRE-->
+  <section id="sobre" class="section">
+    <div class="section-title">
+      <p>CONHECA-ME</p>
+      <h2>Sobre mim</h2>
+    </div>
+    <div class="about">
+      <div class="about-text">
+        <h3>Desenvolverdor e Programador apaixonado por tecnologia</h3>
+        <p>
+          Sou estudante de Informatica de Gestao e tenho interesse no desenvolvimento de programacao de software, aplicacoes web e sistemas de gestao.
+        </p>
+        <p>
+          Tenho experiencia e conhecimentos em tecnologias de desenvolvimento Front-End e Back-End, procurando sempre melhorar minhas habilidades e transfomar ideias em solucoes digitais
+        </p>
+        <div class="education">
+          <h4><i class="fa-solid fa-graduation-cap"></i> Formacao</h4>
+          <p>
+            <strong>Informatica de Gestao</strong>
+          </p>
+          <p>
+            Instituicao de Ensino
+            <strong>ISCIM</strong>
+          </p>
+        </div>
+      </div>
+      <div class="about-info">
+        <div class="info-box">
+          <span><i class="fa-solid fa-graduation-cap"></i> </span>
+          <div>
+            
+            <h4>Formacao</h4>
+            <p>Informatica de Gestao</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <span><i class="fa-solid fa-laptop-code"></i> </span>
+          <div>
+            <h4>Areas</h4>
+            <p>Desenvolvimento de Software <br> Programacao</p>
+          </div>
+        </div>
+        <div class="info-box">
+          <span><i class="fa-solid fa-location-dot"></i> </span>
+          <div>
+            <h4>Localizacao</h4>
+            <p>Mocambique</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--TECNOLOGIAS-->
+  <section id="tecnologias" class="section dark-section">
+    <div class="section-title">
+      <p>MINHAS HABILIDADES</p>
+      <h2>Tecnologia</h2>
+    </div>
+
+    <div class="skills">
+
+      <div class="skill">
+        <div class="skill-icon">
+          HTML
+        </div>
+        <h3>HTML5</h3>
+        <p>Estruturacao de paginas web.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          CSS
+        </div>
+        <h3>CSS3</h3>
+        <p>Design e interfaces responsivas.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          JS
+        </div>
+        <h3>JaavScript</h3>
+        <p>Interacoes e aplicacoes web</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          PHP
+        </div>
+        <h3>PHP</h3>
+        <p>Desenvolvimento Back-End.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          J
+        </div>
+        <h3>Java</h3>
+        <p>Desenvolvimento de Aplicacoes e Sistemas.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          SQL
+        </div>
+        <h3>MySQL</h3>
+        <p>Banco de dados relacionais.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          S
+        </div>
+        <h3>SpringBoot</h3>
+        <p>Framework para aplicacoes e sistemas web.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          P
+        </div>
+        <h3>Python</h3>
+        <p>Desenvolvimento de aplicacoes e sistemas.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          D
+        </div>
+        <h3>Django</h3>
+        <p>Framework python para aplicacoes e sistemas web.</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          L
+        </div>
+        <h3>Laravel</h3>
+        <p>Framework PHP aplicacoes e sistemas web </p>
+      </div>
+
+      <div class="skill">
+        <div class="skill-icon">
+          CI
+        </div>
+        <h3>Codelgniter</h3>
+        <p>Framework PHP aplicacoes e sistemas web </p>
+      </div>
+    </div>
+    
+  </section>
+
+  <!--SERVICOS--->
+  <section id="servicos" class="section">
+    <div class="section-title">
+      <p>O QUE FACO</p>
+      <h2>Meus Servicos</h2>
+    </div>
+    <div class="services">
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-globe"></i> </div>
+        <h3>Desenvolvimento Web</h3>
+        <p>
+          Criacao de websites modernos, responsivos e adaptados para diferentes dispositivos
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-gears"></i> </div>
+        <h3>Sistemas Web</h3>
+        <p>
+          Desenvolvimento de sistemas web de gestao, cadastro, autenticacao e operacoes de CRUD
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-database"></i> </div>
+        <h3>Banco de Dados</h3>
+        <p>
+          Criacao e integracao de banco de dados utilizando MySQL e aplicacoes web
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-plug"></i> </div>
+        <h3>APIs</h3>
+        <p>
+          Desenvolvimento e integracao de APIs REST para comunicacao entre aplicacoes
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projectos" class="section projects-section">
+    <div class="section-title">
+      <p>MEU TRABALHO</p>
+      <h2>Projectos</h2>
+    </div>
+
+    <div class="projects">
+      <div class="project-card">
+        <div class="project-image">
+          CRUD
+        </div>
+        <div class="project-content">
+          <h3>Sistema de Cadastro</h3>
+          <p>
+            Sistema para cadastrar, visualizar, editar e eliminar informacoes
+          </p>
+          <div class="tags">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          WEB
+        </div>
+        <div class="project-content">
+          <h3>Website Instituicional</h3>
+          <p>
+            Website profissional para apresentacao de uma Empresa ou Organizacao
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          API
+        </div>
+        <div class="project-content">
+          <h3>API REST</h3>
+          <p>
+            API para comunicacao entre aplicacoes e gerenciamento de dados
+          </p>
+          <div class="tags">
+            <span>PHP</span>
+            <span>Codelgniter</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--CONTACTO--->
+  <section id="contacto" class="section contact-section">
+    <div class="section-title">
+      <p>VAMOS CONVERSAR</p>
+      <h2>Contacto</h2>
+    </div>
+    <div class="contact">
+      <div class="contact-text">
+        <h3>Tem um projecto em Mente?</h3>
+        <p>
+          Entre em contacto comigo. estou dispinivel para conversar sobre projectos oportunidades e colaboracoes.
+        </p>
+      </div>
+      <div class="contact-info">
+        <a href="malito:c2.felio.2021@gmail.com"><i class="fa-solid fa-envelope"></i>  c2.felio.2021@gmail.com</a>
+        <a href="#"><i class="fa-solid fa-laptop-code"></i> GitHub</a>
+        <a href="#"><i class="fa-solid fa-message"></i>Linkedin</a>
+        <a href="https://wa.me/834308835"><i class="fa-solid fa-phone"></i> 834308835</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Rodape-->
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h2>Felio<span>.</span></h2>
+        <p>
+          Desenvolvedor de Software e Programador
+        </p>
+      </div>
+      <div class="social">
+        <a href="#">GitHub</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+    <div class="copyright">
+      @2026 Felio Ngoca. Todos os direitos reservados.
+    </div>
+  </footer>
+</main> 
+<script src="js/script.js"></script>
 </body>
 </html>
